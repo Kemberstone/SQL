@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="StoredProcedures">
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Functions">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-UVF6VSH\SQLEXPRESS:DESKTOP-UVF6VSH\user">
-          <Created>2026-03-16T11:53:56.8337439+03:00</Created>
+          <Created>2026-03-16T12:50:06.4865201+03:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-UVF6VSH\SQLEXPRESS</Server>
           <UserName />
@@ -22,46 +22,52 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLQuery0-Check.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery0-Check.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1-sp INSERT lessons.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1-sp INSERT lessons.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1-sp INSERTSchedule.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1-sp INSERTSchedule.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1-sp SELECT Schedule for Group.sql">
+        <FileNode Name="SQLQuery0-HolidaysCheck.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1-sp SELECT Schedule for Group.sql</FullPath>
+          <FullPath>SQLQuery0-HolidaysCheck.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2-sp INSERT Schedule1221.sql">
+        <FileNode Name="SQLQuery1-COUNT lessons.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2-sp INSERT Schedule1221.sql</FullPath>
+          <FullPath>SQLQuery1-COUNT lessons.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery7-sp insertHolidaysFor.sql">
+        <FileNode Name="SQLQuery1-GetNextLeaningDay.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery7-sp insertHolidaysFor.sql</FullPath>
+          <FullPath>SQLQuery1-GetNextLeaningDay.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery7-sp_insertALLHolidaysFor.sql">
+        <FileNode Name="SQLQuery1-GetNextLearningDate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery7-sp_insertALLHolidaysFor.sql</FullPath>
+          <FullPath>SQLQuery1-GetNextLearningDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7-GetEasterDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-GetEasterDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7-GetNewYearHolidaysStartDate..sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-GetNewYearHolidaysStartDate..sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7-GetSummertimeSadness.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UVF6VSH\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UVF6VSH\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-GetSummertimeSadness.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
